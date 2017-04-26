@@ -7,7 +7,7 @@ redis = Redis(host='redis', port=6379)
 @app.route('/')
 def hello():
     count = redis.incr('hits')
-    return 'Hello docker-demo! If been seen {} times.\n'.format(count)
+    return 'Hello docker-demoqq! If been seen {} times.\n'.format(count)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0")
