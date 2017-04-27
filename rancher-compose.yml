@@ -1,0 +1,4 @@
+web:
+  scale: 1
+redis:
+  scale: 1
